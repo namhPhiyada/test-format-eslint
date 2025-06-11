@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sh check-changelog.sh && node check-changelog-format.js && npx eslint .
